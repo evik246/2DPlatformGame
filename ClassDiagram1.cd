@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StateMachine">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACAAAAQIAAAAAAAAACAAEAAAAIACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachineCore">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAIAABAAAACAAAAAAAAAAAAAQAACAAAAAAAYAgAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachineCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterStats" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAACQAAEIAAABQAAAAEAABCAAAAAAgIAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Stats\CharacterStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStats">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAQAAAAAAAAABAAAAAAEAAAAAAEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Stats\EnemyStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStats">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQIAAIgYEDDBUIEAGAAgAARIAIAQSGQQQggQAQAAEA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Stats\PlayerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Damageable">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASQACAAAAAIAAAAAAAIgABCAAAEAABAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Characters\Types\Damageable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArcherNPCStateMachine">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYAAAAAJgAAAIAIAAACAAAAAAAUAAAAEAAAAAAAAMA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachines\Enemies\ArcherNPCStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BatNPCStateMachine">
+    <Position X="8.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAJgAAIIAIAAACAAAACAAAAAAAEAAAAAAAAGA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachines\Enemies\BatNPCStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefenderNPCStateMachine">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAJgAAIIAIAAECAABAAAAEAAAAEAAAAAAAAGA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachines\Enemies\DefenderNPCStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DogNPCStateMachine">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAJgAAIIAIAAACAAAAAAAEAAAAEAAAAAAAAGA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachines\Enemies\DogNPCStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GhostNPCStateMachine">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAJgAAIIAAAAACAAAAAAAAAAAAEAAAAAAAAGA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachines\Enemies\GhostNPCStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateMachine">
+    <Position X="16" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAkQABJgAQCAAQAgACAAAAAAAICAAAEAAAAAAAQEA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateMachines\Player\PlayerStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyExplosionState">
+    <Position X="23.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAFAIAIAAAABAAAAAAAEAAAAIECAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\FlyExplosionState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyMeleeAttackState">
+    <Position X="26" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAFAIAIAAAABAAAAAAAEAAAAIECAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\FlyMeleeAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeleeAttackState">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAFAIAIAAAABAAAAAAAEAAAAIEAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\MeleeAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBasicAttackState">
+    <Position X="25.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAABAKAIAAAABAABAAAAEAAAAIEABAAAAQEA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\PlayerBasicAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHungryBiteState" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAEAIIIAAgABAAAAAAAEAAAAIEABAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\PlayerHungryBiteState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerSharpNeedlesState" Collapsed="true">
+    <Position X="32.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAgAABAYAIAAgABAAAAAAAEAAAAIEAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\PlayerSharpNeedlesState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RangedAttackState" Collapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAABAYIIAAAAFAAAAAAAEAAAAIEAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\RangedAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShieldBlockState" Collapsed="true">
+    <Position X="37.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAAAAKAIAAAIBAAAAAAAEAgAAIgAAAgAAEAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\AttackAbilities\ShieldBlockState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BounceState" Collapsed="true">
+    <Position X="39.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAIAAAAUAAAAQAAUAAABAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\BounceState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChasingState" Collapsed="true">
+    <Position X="41.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAIIAQAAEAAAAQAAEgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\ChasingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyChasingState" Collapsed="true">
+    <Position X="44" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAIIIAAAAEAAAAQAAEAAAAIACAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\FlyChasingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NPCDieState" Collapsed="true">
+    <Position X="46.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAAIAgAAIAAgABQBAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\NPCDieState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NPCFlyIdleState" Collapsed="true">
+    <Position X="48.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAIACAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\NPCFlyIdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleState" Collapsed="true">
+    <Position X="50.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\IdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatrollingState" Collapsed="true">
+    <Position X="53" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAIAQAAAAAAAAAAEgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PatrollingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDieState" Collapsed="true">
+    <Position X="55.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAIAAAABAAAAAAAEAAAAICAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PlayerDieState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHealState" Collapsed="true">
+    <Position X="57.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAMAAgABAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PlayerHealState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerIdleState" Collapsed="true">
+    <Position X="59.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PlayerIdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerJumpState" Collapsed="true">
+    <Position X="62" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABgCAAAAIAQAAQAAAACAAEAAAAIAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PlayerJumpState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLadderClimbState" Collapsed="true">
+    <Position X="64.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAEBABAAAAIAAAAIAAAAAAAEAAAAIACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PlayerLadderClimbState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRunState" Collapsed="true">
+    <Position X="66.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAABAAAAAAIAQAAAAAAAAAAEgAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PlayerRunState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerShadowStepState" Collapsed="true">
+    <Position X="68.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAAAAAABIAAAAAAEAAAAIAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\PlayerShadowStepState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SleepingState" Collapsed="true">
+    <Position X="71" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEAAAAAAAAAAAEAAAAIACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\States\SleepingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="8.83" />
+</ClassDiagram>
